@@ -1,0 +1,7 @@
+{
+  "name": "PIaplicativo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
