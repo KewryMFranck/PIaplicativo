@@ -20,7 +20,7 @@ export class AlertPage implements OnInit {
       header:'Alerta',
       subHeader:'Atenção',
       message:'Esta é uma mensagem de Alerta!!',
-      buttons:['ok']
+      buttons:['OK']
     });
 
       await alert.present();
