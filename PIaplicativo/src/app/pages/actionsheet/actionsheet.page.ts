@@ -12,6 +12,8 @@ export class ActionsheetPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+    async actionSheet(){
     const actionSheet= await this.actionSheetCtrl.create({
       header:'Albums',
       cssClass:'my-custom-class',
