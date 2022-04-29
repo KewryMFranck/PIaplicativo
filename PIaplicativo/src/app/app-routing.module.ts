@@ -21,9 +21,8 @@ const routes: Routes = [
   },
   {
     path: 'badge',
-    loadChildren:() => import('pages/badge/badge.module').then( m => m.BadgePageModule)
-  },
-  {
+    loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
+  }
 ];
 
 @NgModule({
