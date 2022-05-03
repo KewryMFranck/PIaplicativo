@@ -22,7 +22,17 @@ const routes: Routes = [
   {
     path: 'badge',
     loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
-  }
+  },
+
+  {
+    path: 'badge',
+    loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
+  },
+  {
+    path: 'card',
+    loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
+  },
+  
 ];
 
 @NgModule({
