@@ -39,6 +39,10 @@ const routes: Routes = [
     path: 'datetime',
     loadChildren: () => import('./pages/datetime/datetime.module').then( m => m.DatetimePageModule)
   },
+  {
+    path: 'infinitscroll',
+    loadChildren: () => import('./pages/infinitscroll/infinitscroll.module').then( m => m.InfinitscrollPageModule)
+  },
   
 ];
 

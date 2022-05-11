@@ -18,7 +18,8 @@ export class AppComponent {
     { title: 'Card', url: '/card', icon: 'newspaper' },
     { title: 'Checkbox', url: '/checkbox', icon: 'checkbox' },
     { title: 'Input', url: '/input', icon: 'documento-text' },
-    { title: 'DateTime', url: '/dateTime', icon: 'timer' },
+    { title: 'DateTime', url: '/datetime', icon: 'timer' },
+    { title: 'Infinit Scroll ', url: '/infinitscroll ', icon: 'infinite' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
