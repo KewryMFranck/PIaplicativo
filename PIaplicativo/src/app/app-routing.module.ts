@@ -23,11 +23,6 @@ const routes: Routes = [
     path: 'badge',
     loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
   },
-
-  {
-    path: 'badge',
-    loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
-  },
   {
     path: 'card',
     loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
@@ -35,6 +30,14 @@ const routes: Routes = [
   {
     path: 'checkbox',
     loadChildren: () => import('./pages/checkbox/checkbox.module').then( m => m.CheckboxPageModule)
+  },
+  {
+    path: 'input',
+    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
+  },
+  {
+    path: 'datetime',
+    loadChildren: () => import('./pages/datetime/datetime.module').then( m => m.DatetimePageModule)
   },
   
 ];
